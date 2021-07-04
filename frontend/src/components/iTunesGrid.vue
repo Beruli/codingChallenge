@@ -11,7 +11,7 @@
       Error loading albums: {{ errorMsg }}
     </div>
 
-    <div v-if="albums.length > 0">
+    <div v-if="filteredAlbums.length > 0">
       <div v-for="(item, index) in filteredAlbums" :key="index">
         <div v-if="index === 0" class="row header">
           <div class="column album">
