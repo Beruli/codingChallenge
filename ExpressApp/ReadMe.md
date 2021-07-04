@@ -8,6 +8,9 @@ This is step 2 of Task 1
    c. Filters the results so there are no duplicate albums (based on album name)
    d. Serves the filtered results to the front-end via a route
 
+Run first
+npm install
+
 Start with
 node codeChallengeServer.js
 
